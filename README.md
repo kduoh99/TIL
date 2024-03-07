@@ -1,6 +1,6 @@
 # Today I Learned
 
-### 공부한 내용을 기록하며 성장해나아가자, Keep Learning!
+### 공부한 내용을 기록하며 성장해 나아가자, Keep Learning!
 
 <br/>
 

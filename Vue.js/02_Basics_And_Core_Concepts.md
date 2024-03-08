@@ -150,7 +150,9 @@ button:active {
 
 <br /><br />
 
-### 실습: 이벤트 바인딩 ![실습: 이벤트 바인딩](./img/assignment_2.png)<br /><br />
+### 실습: 이벤트 바인딩
+
+![실습: 이벤트 바인딩](./img/assignment_2.png)<br /><br />
 
 ```html
 <!DOCTYPE html>

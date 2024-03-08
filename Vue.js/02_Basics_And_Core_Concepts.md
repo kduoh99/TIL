@@ -34,7 +34,7 @@
 
 ![실습: 데이터 바인딩](./img/assignment_1.png)<br/>
 
-````html
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -68,26 +68,85 @@
     </section>
   </body>
 </html>
-\`\`\`
-<br />
-
-```javascript const app = Vue.createApp({ data() { return { name: "Kang Duoh",
-age: 26 }; }, methods: { calAge() { return this.age + 5; }, randomNumber() {
-return Math.random(); } } }); app.mount('#assignment') ```
+```
 
 <br />
-```css * { box-sizing: border-box; } html { font-family: 'Jost', sans-serif; }
-body { margin: 0; } section { box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26); margin:
-3rem; border-radius: 10px; padding: 1rem; text-align: center; } h2 { font-size:
-2rem; border-bottom: 4px solid #ccc; color: #970076; margin: 0 0 1rem 0; } p {
-font-size: 1.25rem; font-weight: bold; background-color: #970076; padding:
-0.5rem; color: white; border-radius: 25px; } input { font: inherit; border: 1px
-solid #ccc; } input:focus { outline: none; border-color: #1b995e;
-background-color: #d7fdeb; } button { font: inherit; cursor: pointer; border:
-1px solid #ff0077; background-color: #ff0077; color: white; padding: 0.05rem
-1rem; box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26); } button:hover, button:active
-{ background-color: #ec3169; border-color: #ec3169; box-shadow: 1px 1px 4px
-rgba(0, 0, 0, 0.26); } ```
+
+```javascript
+const app = Vue.createApp({
+  data() {
+    return { name: "Kang Duoh", age: 26 };
+  },
+  methods: {
+    calAge() {
+      return this.age + 5;
+    },
+    randomNumber() {
+      return Math.random();
+    },
+  },
+});
+app.mount("#assignment");
+```
+
+<br />
+
+```css
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Jost", sans-serif;
+}
+body {
+  margin: 0;
+}
+section {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  margin: 3rem;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+h2 {
+  font-size: 2rem;
+  border-bottom: 4px solid #ccc;
+  color: #970076;
+  margin: 0 0 1rem 0;
+}
+p {
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: #970076;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 25px;
+}
+input {
+  font: inherit;
+  border: 1px solid #ccc;
+}
+input:focus {
+  outline: none;
+  border-color: #1b995e;
+  background-color: #d7fdeb;
+}
+button {
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid #ff0077;
+  background-color: #ff0077;
+  color: white;
+  padding: 0.05rem 1rem;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
+}
+button:hover,
+button:active {
+  background-color: #ec3169;
+  border-color: #ec3169;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
+}
+```
 
 <br /><br />
 
@@ -132,28 +191,93 @@ rgba(0, 0, 0, 0.26); } ```
   </body>
 </html>
 ```
-<br />
-```javascript const app = Vue.createApp({ data() { return { output1: '',
-output2: '' }; }, methods: { showAlert() { alert('Warning!'); },
-userInput1(event) { this.output1 = event.target.value; }, userInput2() {
-this.output2 = this.output1; } } }); app.mount('#assignment'); ```
 
 <br />
-```css * { box-sizing: border-box; } html { font-family: 'Jost', sans-serif; }
-body { margin: 0; } header { box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26); margin:
-3rem; border-radius: 10px; padding: 1rem; background-color: #1b995e; color:
-white; text-align: center; } #assignment { box-shadow: 0 2px 8px rgba(0, 0, 0,
-0.26); margin: 3rem; border-radius: 10px; padding: 1rem; text-align: center; }
-#assignment h2 { font-size: 2rem; border-bottom: 4px solid #ccc; color: #1b995e;
-margin: 0 0 1rem 0; } #assignment p { font-size: 1.25rem; font-weight: bold;
-background-color: #8ddba4; padding: 0.5rem; color: #1f1f1f; border-radius: 25px;
-} #assignment input { font: inherit; border: 1px solid #ccc; } #assignment
-input:focus { outline: none; border-color: #1b995e; background-color: #d7fdeb; }
-#assignment button { font: inherit; cursor: pointer; border: 1px solid #ff0077;
-background-color: #ff0077; color: white; padding: 0.05rem 1rem; box-shadow: 1px
-1px 2px rgba(0, 0, 0, 0.26); } #assignment button:hover, #assignment
-button:active { background-color: #ec3169; border-color: #ec3169; box-shadow:
-1px 1px 4px rgba(0, 0, 0, 0.26); } ```
 
-<br /><br />
-````
+```javascript
+const app = Vue.createApp({
+  data() {
+    return { output1: "", output2: "" };
+  },
+  methods: {
+    showAlert() {
+      alert("Warning!");
+    },
+    userInput1(event) {
+      this.output1 = event.target.value;
+    },
+    userInput2() {
+      this.output2 = this.output1;
+    },
+  },
+});
+app.mount("#assignment");
+```
+
+<br />
+
+```css
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Jost", sans-serif;
+}
+body {
+  margin: 0;
+}
+header {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  margin: 3rem;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #1b995e;
+  color: white;
+  text-align: center;
+}
+#assignment {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  margin: 3rem;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+#assignment h2 {
+  font-size: 2rem;
+  border-bottom: 4px solid #ccc;
+  color: #1b995e;
+  margin: 0 0 1rem 0;
+}
+#assignment p {
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: #8ddba4;
+  padding: 0.5rem;
+  color: #1f1f1f;
+  border-radius: 25px;
+}
+#assignment input {
+  font: inherit;
+  border: 1px solid #ccc;
+}
+#assignment input:focus {
+  outline: none;
+  border-color: #1b995e;
+  background-color: #d7fdeb;
+}
+#assignment button {
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid #ff0077;
+  background-color: #ff0077;
+  color: white;
+  padding: 0.05rem 1rem;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
+}
+#assignment button:hover,
+#assignment button:active {
+  background-color: #ec3169;
+  border-color: #ec3169;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
+}
+```

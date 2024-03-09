@@ -1,10 +1,10 @@
 ## 데이터 타입
 
-<img src="./img/book_img.jpg" width="540" height="300"/><br/>
+<img src="./img/book_img.jpg" width="540" height="300"/><br/><br/>
 
 ### 기본형 데이터와 참조형 데이터
 
-<img src="./img/data_type.png" width="390" height="300"/><br/>
+<img src="./img/data_type.png" width="390" height="300"/><br/><br/>
 
 자바스크립트 데이터 타입에는 크게 기본형과 참조형이 있다.<br/>
 기본적으로 기본형은 불변값이고, 참조형은 가변값이다.<br/><br/>

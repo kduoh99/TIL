@@ -1,20 +1,20 @@
 ## 데이터 타입
 
-![코어 자바스크립트](./img/book_img.jpg)<br/>
+![코어 자바스크립트](./img/book_img.jpg){: width="180" height="100"}<br/>
 
-![데이터 타입의 종류](./img/data_type.png)<br/>
+![데이터 타입의 종류](./img/data_type.png){: width="130" height="100"}<br/>
 
 ### 기본형 데이터와 참조형 데이터
 
 자바스크립트 데이터 타입에는 크게 기본형과 참조형이 있다.<br/>
 기본적으로 기본형은 불변값이고, 참조형은 가변값이다.<br/><br/>
 
-- 기본형<br/>
+- **기본형**<br/>
 
   - Number, String, Boolean, null, undefined, Symbol은 모두 불변값이다.<br/>
   - 한 번 만든 값은 다른 값으로 변경할 수 없으며, 변경은 새로 만드는 동작을 통해서만 이루어진다.<br/><br/>
 
-- 참조형<br/>
+- **참조형**<br/>
 
   - Array, Function, Date, RegExp 등과 ES6에서 추가된 Map, WeakMap, Set, WeakSet 등이 Object의 하위 분류에 속한다.<br/>
   - 참조형 데이터는 기본형 데이터와 달리, 프로퍼티 영역이 별도로 존재한다.<br/>

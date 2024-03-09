@@ -1,8 +1,8 @@
 ## 데이터 타입
 
-![코어 자바스크립트](./img/book_img.jpg){: width="180" height="100"}<br/>
+<img src="./img/book_img.jpg" width="180" height="100"/><br/>
 
-![데이터 타입의 종류](./img/data_type.png){: width="130" height="100"}<br/>
+<img src="./img/data_type.png" width="130" height="100"/><br/>
 
 ### 기본형 데이터와 참조형 데이터
 

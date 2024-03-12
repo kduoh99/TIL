@@ -69,7 +69,7 @@
 - Vue의 이벤트 처리는 HTML, 자바스크립트에서 사용하는 이벤트를 준용해서 사용한다.
   - [HTML](https://developer.mozilla.org/en-US/docs/Web/Events)
   - [자바스크립트](https://www.w3schools.com/tags/ref_eventattributes.asp)
-- 'v-on:[이벤트명]'을 '@이벤트명'과 같이 축약하여 사용할 수 있다.
+- 'v-on:이벤트명'을 '@이벤트명'과 같이 축약하여 사용할 수 있다.
 
 <br/>
 

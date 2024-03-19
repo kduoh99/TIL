@@ -71,57 +71,51 @@
 - [Vue 3의 생명주기](https://vuejs.org/guide/essentials/lifecycle.html#lifecycle-diagram)
 - Vue 컴포넌트의 생성부터 제거까지의 흐름을 말하며, 각 생명주기마다 실행할 수 있는 이벤트 훅을 등록할 수 있다.
 
-<br/>
-
-### 실습: Vue 앱 생명주기
-
-![실습: Vue 앱 생명주기](./img/practice_life_cycle.png)
-
-```javascript
-const app = Vue.createApp({
-    data() {
-        return {
-            currentUserInput: '',
-            message: 'Vue is great!',
-        };
-    },
-    methods: {
-        saveInput(event) {
-            this.currentUserInput = event.target.value;
+    ```javascript
+    const app = Vue.createApp({
+        data() {
+            return {
+                currentUserInput: '',
+                message: 'Vue is great!',
+            };
         },
-        setText() {
-            this.message = this.$refs.userText.value;
+        methods: {
+            saveInput(event) {
+                this.currentUserInput = event.target.value;
+            },
+            setText() {
+                this.message = this.$refs.userText.value;
+            },
         },
-    },
-    beforeCreate() {
-        console.log('beforeCreate()');
-    },
-    created() {
-        console.log('created()');
-    },
-    beforeMount() {
-        console.log('beforeMount()');
-    },
-    mounted() {
-        console.log('mounted()');
-    },
-    beforeUpdate() {
-        console.log('beforeUpdate()');
-    },
-    update() {
-        console.log('updated()');
-    },
-    beforeUnmount() {
-        console.log('beforeUnmount()');
-    },
-    unmounted() {
-        console.log('unmounted()');
-    },
-});
+        beforeCreate() {
+            console.log('beforeCreate()');
+        },
+        created() {
+            console.log('created()');
+        },
+        beforeMount() {
+            console.log('beforeMount()');
+        },
+        mounted() {
+            console.log('mounted()');
+        },
+        beforeUpdate() {
+            console.log('beforeUpdate()');
+        },
+        update() {
+            console.log('updated()');
+        },
+        beforeUnmount() {
+            console.log('beforeUnmount()');
+        },
+        unmounted() {
+            console.log('unmounted()');
+        },
+    });
 
-app.mount('#app');
+    app.mount('#app');
 
-setTimeout(function () {
-    app.unmount();
-}, 3000);
-```
+    setTimeout(function () {
+        app.unmount();
+    }, 3000);
+    ```

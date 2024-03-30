@@ -7,7 +7,11 @@
 실행 컨텍스트는 **코드 실행에 필요한 환경 정보를 모아놓은 객체**이다.
 코드 실행 시 전역 컨텍스트와 함수 실행에 의한 컨텍스트가 생성되며, 각 컨텍스트는 활성화되는 시점에 VariableEnvironment, LexicalEnvironment, ThisBinding의 세 가지 정보를 수집한다.
 
-*VariableEnvironment와 LexicalEnvironment는 동일한 내용으로 구성되지만, LexicalEnvironment는 변경 사항이 즉시 반영되는 반면 VariableEnvironment는 초기 상태를 유지한다.*
+&nbsp;&nbsp; **VariableEnvironment와 LexicalEnvironment**
+   
+- *초기에는 동일한 내용으로 구성되지만, LexicalEnvironment는 변경 사항이 즉시 반영되는 반면 VariableEnvironment는 초기 상태를 유지한다.*
+
+- *매개변수명, 변수의 식별자, 선언한 함수의 함수명 등을 수집하는 environmentRecord와 바로 직전 컨텍스트의 LexicalEnvironment 정보를 참조하는 outerEnvironmentReference로 구성되어 있다.*
 
 <br/>
 

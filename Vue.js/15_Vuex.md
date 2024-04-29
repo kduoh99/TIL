@@ -283,3 +283,9 @@ export default {
 
 - Vuex 코드 및 파일을 구조화하여 유지보수를 용이하게 할 수 있다.
 - 모듈화된 Vuex 코드를 사용하여 각 모듈별로 파일을 관리할 수 있다.
+
+<br/>
+
+![데모 온라인 상점](./img/Demo_Online_Store.png)
+
+[데모 온라인 상점_ 소스코드](https://github.com/kduoh99/TIL/tree/main/Vue.js/PJ/vuex-11-a-challenge-starting-code/src)
